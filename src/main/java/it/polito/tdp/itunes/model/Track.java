@@ -18,6 +18,12 @@ public class Track {
 		this.unitPrice = unitPrice;
 	}
 	
+	public Track(Integer trackId, String name, int bytes){
+		super();
+		this.trackId = trackId;
+		this.name = name;
+		this.bytes = bytes;}
+	
 	public Integer getTrackId() {
 		return trackId;
 	}
